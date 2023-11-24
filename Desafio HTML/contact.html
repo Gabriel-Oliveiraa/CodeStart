@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contato</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Início</a></li>
+      </ul>
+    </nav>
+
+    <form action="./thank-you.html">
+      <div>
+        <label for="fullName">Nome completo</label>
+        <input id="fullName" name="fullName" type="text" required />
+      </div>
+
+      <div>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" />
+      </div>
+
+      <div>
+        <label>Gênero</label>
+        <div>
+          <input id="male" name="gender" type="radio" value="Masculino" />
+          <label for="male">Masculino</label>
+        </div>
+
+        <div>
+          <input id="female" name="gender" type="radio" value="Feminino" />
+          <label for="female">Feminino</label>
+        </div>
+
+        <div>
+          <input id="other" name="gender" type="radio" value="Other" />
+          <label for="other">Outro</label>
+        </div>
+      </div>
+
+      <div>
+        <label>Quais serviços você quer contratar?</label>
+
+        <div>
+          <input id="landing_page" name="landing_page" type="checkbox" />
+          <label for="landing_page">Criação de landing page</label>
+        </div>
+
+        <div>
+          <input id="aplicativo" name="aplicativo" type="checkbox" />
+          <label for="aplicativo">Criação de aplicativos</label>
+        </div>
+
+        <div>
+          <input
+            id="formatacao_de_computador"
+            name="formatacao_de_computador"
+            type="checkbox"
+          />
+          <label for="formatacao_de_computador">Formatação de computador</label>
+        </div>
+      </div>
+
+      <div>
+        <label>Sua mensagem</label>
+
+        <div>
+          <textarea name="message"></textarea>
+        </div>
+      </div>
+
+      <div>
+        <input type="submit" value="Finalizar" />
+        <input type="reset" value="Limpar" />
+      </div>
+    </form>
+  </body>
+</html>

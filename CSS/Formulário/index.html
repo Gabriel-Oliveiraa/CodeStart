@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>CSS - Formulário</title>
+</head>
+<body>
+    <header>
+        <h2>Crie Uma Conta</h2>
+    </header>
+
+    <form class="form-container" action="./sucess.html">
+        <div class="form-row">
+            <label class="form-label" for="fullName">Nome completo</label>
+            <input id="fullName" type="text" class="form-input" placeholder="Digite seu nome completo..." required/>
+        </div>
+
+        <div class="form-row">
+            <label class="form-label" for="email">E-mail</label>
+            <input id="email" type="text" class="form-input" placeholder="Digite seu E-mail..." required/>
+        </div>
+
+        <div class="form-row">
+            <label class="form-label" for="password">Senha</label>
+            <input id="password" type="password" class="form-input" placeholder="Digite sua senha..." required/>
+        </div>
+
+        <div class="form-row">
+            <label class="form-label" for="birthDate">Data de nascimento</label>
+            <input id="date" type="date" class="form-input" required/>
+        </div>
+
+        <div class="form-row">
+            <label class="form-label" for="gender">Gênero</label>
+            <select id="gender" name="gender" class="form-input">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <input id="privacyTerms" type="checkbox" required/>
+            <label class="form-small-label" for="privacyTerms">Aceito as políticas de privacidade</label>
+        </div>
+
+        <div class="form-row">
+            <input type="submit" value="Criar conta" class="form-botton"/>
+        </div>
+    </form>
+</body>
+</html>

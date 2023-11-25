@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors avançados</title>
+    <style>
+        nav + div {
+            color: red;
+        }
+
+        input [type="text"] {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <li><a>Início</a></li>
+        <li><a>Sobre</a></li>
+        <li><a>Contato</a></li>
+    </nav>
+
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet.
+        </p>
+    </div>
+
+    <div>
+        <input type="text" />
+    </div>
+
+    <div>
+        <input type="text" />
+    </div>
+
+    <div>
+        <input type="submit" />
+    </div>
+</body>
+</html>

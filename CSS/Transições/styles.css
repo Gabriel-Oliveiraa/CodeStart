@@ -1,0 +1,18 @@
+body {
+    background-color: #222;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    border-radius: 5px;
+}
+
+.box:hover {
+    background-color: red;
+    border-radius: 10px;
+}

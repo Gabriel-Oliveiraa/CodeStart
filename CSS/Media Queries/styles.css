@@ -1,0 +1,11 @@
+@media (orientation: landscape) {
+    h1 {
+        color: yellow;
+    }
+}
+
+@media (min-height: 250px) and (max-width: 450px) {
+    h1 {
+        color: red;
+    }
+}

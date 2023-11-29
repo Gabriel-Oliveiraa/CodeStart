@@ -1,0 +1,35 @@
+body {
+    background-color: #222;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+    background-color: #eee;
+
+    /*Animação*/
+    /*animation-name: grow-width;
+    animation-duration: 2s;
+    animation-direction: alternate;*/
+
+    /*Animação*/
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes move {
+    to {
+        top: 200px;
+    }
+}
+
+@keyframes grow-width {
+    to {
+        width: 500px;
+        background-color: red;
+    }
+}

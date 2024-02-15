@@ -10,3 +10,27 @@ if (2 + 2 === 4) {
 }
 
 console.log(message2);
+
+//Quando usar const ou let? (let pode ser alterada no escopo filho, enquanto const não)
+let message3 = 'hello world';
+
+if (1 + 1 === 2) {
+    message3 = 'olá mundo'
+}
+
+console.log(message3)
+
+const message4 = 'hello world';
+
+if (1 + 1 === 2) {
+    message4 = 'olá mundo'
+}
+
+console.log(message4)
+
+//Templates strings
+const fullName = 'Gabriel Oliveira';
+const age = 23;
+const city = 'Serra Talhada';
+
+const message6 = `Eu sou ${fullName}, tenho ${age} anos, e sou de ${city}!`

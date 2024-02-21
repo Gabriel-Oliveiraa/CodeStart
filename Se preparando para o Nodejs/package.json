@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "validator": "^13.11.0"
+  },
+  "name": "modulos-node",
+  "version": "1.0.0",
+  "main": "CriandoModulos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon ModulosNPM.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
